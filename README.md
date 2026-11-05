@@ -3,7 +3,7 @@
 A save editor for **Stoneshard** by LazarusOne.
 Fan-made, not affiliated with or endorsed by Ink Stains Games.
 
-**Download:** [Nexus Mods](LINK_TO_YOUR_NEXUS_PAGE). Players should get Shardsmith from Nexus. This repository is the source code, so you can see what the program does and build it yourself.
+**Download:** [Nexus Mods](https://www.nexusmods.com/stoneshard/mods/437). Players should get Shardsmith from Nexus. This repository is the source code, so you can see what the program does and build it yourself.
 
 ## What it does
 
