@@ -3,7 +3,17 @@
 A save editor for **Stoneshard** by LazarusOne.
 Fan-made, not affiliated with or endorsed by Ink Stains Games.
 
-**Download:** [Nexus Mods](LINK_TO_YOUR_NEXUS_PAGE). Players should get Shardsmith from Nexus. This repository is the source code, so you can see what the program does and build it yourself.
+**Download:** [Nexus Mods](https://www.nexusmods.com/stoneshard/mods/437). This repository is the source code, so you can see what the program does, run it with Python, or build it yourself. While the Nexus download is waiting for review, see **How to run** below.
+
+## How to run
+
+You don't need to build anything. Shardsmith is a single Python file that uses only Python's standard library.
+
+1. Install **Python 3.12** (or newer) from [python.org](https://www.python.org/downloads/). In the installer, tick **"Add python.exe to PATH"**. Keep **"tcl/tk and IDLE"** ticked (it is by default); Shardsmith's window needs it.
+2. On this page, click the green **Code** button → **Download ZIP**, and unzip it anywhere.
+3. Double-click `shardsmith.py`. If Windows asks what to open it with, choose **Python**.
+   Or open a command prompt in the folder and type `py shardsmith.py`.
+4. The first start takes a little longer while Shardsmith reads item pictures and names from your Stoneshard install. After that they're cached and it starts quickly.
 
 ## What it does
 
@@ -37,7 +47,7 @@ py -m pip install pyinstaller
 py -m PyInstaller --onedir --windowed --noupx --name Shardsmith --icon shardsmith.ico --version-file shardsmith_version.txt shardsmith.py
 ```
 
-The program is created in the `dist\Shardsmith` folder. To run it without building, use `py shardsmith.py`.
+The program is created in the `dist\Shardsmith` folder.
 
 ## License
 
