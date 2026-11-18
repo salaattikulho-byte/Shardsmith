@@ -13,7 +13,7 @@ You don't need to build anything. Shardsmith is a single Python file that uses o
 2. On this page, click the green **Code** button → **Download ZIP**, and unzip it anywhere.
 3. Double-click `shardsmith.py`. If Windows asks what to open it with, choose **Python**.
    Or open a command prompt in the folder and type `py shardsmith.py`.
-4. The first start takes a little longer while Shardsmith reads item pictures and names from your Stoneshard install. After that they're cached and it starts quickly.
+4. Shardsmith finds your Stoneshard install through Steam. If it can't, it asks you to pick `data.win` in the Stoneshard game folder. The first start takes a little longer while it reads item pictures and names from the game; after that they're cached and it starts quickly.
 
 ## What it does
 
